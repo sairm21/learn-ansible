@@ -1,0 +1,6 @@
+- name: Demo playbook
+  hosts: all
+  tasks:
+    - name: Print the message
+      ansible.builtin.debug:
+        msg: Message by ansible builtin debug module
