@@ -6,5 +6,5 @@
         msg: Message by ansible builtin debug module
 
     - name: Include another yaml file common.yml
-        ansible.builtin.include_tasks:
-          file: common.yml
+      ansible.builtin.include_tasks:
+        file: common.yml
