@@ -1,0 +1,8 @@
+- name: Variable Declaration
+  hosts: all
+  vars:
+    URL: joindevops.com
+  tasks:
+    - name: print the URL variable
+      ansible.builtin.debug:
+        msg: URL - {{URL}}
